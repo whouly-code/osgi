@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Web
+Bundle-SymbolicName: com.hck.material.web
+Bundle-Version: 1.0.0
+Bundle-Activator: com.hck.material.web.Activator
+Bundle-Vendor: HCK
+Import-Package: javax.servlet;version="2.4.0",
+ javax.servlet.http;version="2.4.0",
+ org.osgi.framework;version="1.3.0",
+ org.osgi.service.http;version="1.2.0"

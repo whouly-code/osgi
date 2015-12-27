@@ -1,0 +1,73 @@
+@charset "utf-8";
+p{text-indent:2em;}
+
+.bgcolor{
+	background-color:#E3E3E3
+}
+
+.cebhead{
+	background-color:#FF9208;
+	position:relative;
+	width:65%;
+	margin:0 auto;
+}
+
+.cebhead-right{
+	position:absolute;
+	right:0;
+	top:0;
+}
+.cebtop{
+/* 	除了您已经在线性渐变中看到的起始位置，方向，和颜色，径向梯度允许你指定渐变的形状（圆形或椭圆形）和大小 */
+/* 	（最近端，最近角，最远端，最远角，包含或覆盖 (closest-side, closest-corner, farthest-side,  */
+/* 	farthest-corner, contain or cover)）。 颜色起止(Color stops)：就像用线性渐变，你应该沿着渐变线定义 */
+/* 	渐变的起止颜色 */
+/* 	格式 */
+/* 	-webkit-radial-gradient([<bg-position> || <angle>,]? [<shape> || <size>,]? <color-stop>, <color-stop>[, <color-stop>]*); */
+/* 	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FF9208), to(#ffffff)); */
+	background: -webkit-radial-gradient(0 0, ellipse, #FF9208 , #ffffff );
+
+	/*background: -webkit-gradient(linear,0% 0%,100% 100%,from(#FF9208),to(#FFFFFF));*/
+	width:65%;
+	margin:0 auto;
+	-webkit-box-shadow: -5px -2px 6px #FF9208;
+	-moz-box-shadow: 5px 2px 6px #FF9208; 
+}
+
+.cebfoot{
+	background-color:#FF9208;
+	position:relative;
+	width:65%;
+	margin:0 auto;
+	bottom:0;
+}
+
+.cebbody{
+	background-color:#ace;
+	position:relative;
+	width:65%;
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

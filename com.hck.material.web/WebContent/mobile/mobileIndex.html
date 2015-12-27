@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- 引入jquery库 -->
+<!-- <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> -->
+<!-- <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
+
+<!-- 引入 百度库 -->
+<link rel="stylesheet" href="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://apps.bdimg.com/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<!-- 本地文件 -->
+<!-- <link rel="stylesheet" href="/hck/material/lib/jquery/145/jquery.mobile-1.4.5.min.css"> -->
+<!-- <script src="/hck/material/lib/jquery/145/jquery.mobile-1.4.5.min.js"></script> -->
+<!-- <script src="/hck/material/lib/jquery/11103/jquery-1.11.3.min.js"></script> -->
+
+<!-- <link rel="stylesheet" href="../lib/jquery/145/jquery.mobile-1.4.5.min.css"> -->
+<!-- <script src="../lib/jquery/11103/jquery-1.11.3.min.js"></script> -->
+<!-- <script src="../lib/jquery/145/jquery.mobile-1.4.5.min.js"></script> -->
+
+<script src="mobileIndex.js"></script>
+<title>物料物料系统</title>
+</head>
+<body>
+
+
+<div data-role="page" id="pageone">
+  <div data-role="header">
+    <h1>物料物料系统</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  	<div class="ui-field-contain">
+  		<label for="fname" >物料名称：</label>
+		<input type="text" name="fname" id="fname" placeholder="物料名称..." data-clear-btn="true"/>
+	</div>
+	<div class="ui-field-contain">
+		<label for="fmaintenance" >维护内容：</label>
+		<input type="text" name="fmaintenance" id="fmaintenance" placeholder="维护内容..." data-clear-btn="true"/>
+	</div>
+  </div>
+
+  <div data-role="footer">
+  	<div style="width:175px;margin:0 auto;">
+	  	<a id="submit" href="#" class="ui-btn" style="width:50px">提交</a>
+	  	<div data-role="popup" id="submit">
+		  <p>请填写内容</p>
+		</div>
+	    <a href="#" class="ui-btn" style="width:50px;margin-left:10px">返回</a>
+  	</div>
+    
+  </div>
+</div> 
+
+</body>
+</html>
